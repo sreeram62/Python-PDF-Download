@@ -1,7 +1,7 @@
 # Python-PDF-Download
 To download all PDF's from a given web page using python Script
 
-The script assumes first finds all the anchor tags ("a") and then takes the href from the a tags. 
+The script first finds all the anchor tags ("a") and then takes the href  attribute value from the "a" tags. 
 
 Then it finds if the href has .pdf at the end. If so a function runs to download the PDF.
 
@@ -13,6 +13,6 @@ Lines to be uncommented in case relative URL is used:
 
      #domainName = "https://somedomainname.com" 
   
-     #getPdfLink = domainName+getPdfLink <br/>
+     #getPdfLink = domainName+getPdfLink 
   
      And make sure domainName variable is updated.
