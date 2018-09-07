@@ -1,4 +1,4 @@
-# Python-PDF-Download
+# Python Script For Downloading PDF's from a web page
 To download all PDF's from a given web page using python Script
 
 The script first finds all the anchor tags ("a") and then takes the href  attribute value from the "a" tags. 
